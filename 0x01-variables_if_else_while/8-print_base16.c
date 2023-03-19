@@ -1,4 +1,5 @@
 #include <stdio.h>
+
 /**
  * main - Entry point
  *
@@ -6,21 +7,18 @@
  */
 int main(void)
 {
-    int i;
+	int i;
 
-    /* Print the numbers of base 16 in lowercase */
-    for (i = 0; i < 10; i++)
-    {
-        putchar(i + '0');
-    }
+	for (i = 0; i < 10; i++)
+	{
+		putchar(i + '0');
+	}
+	for (i = 0; i < 6; i++)
+	{
+		putchar(i + 'a');
+	}
 
-    for (i = 'a'; i <= 'f'; i++)
-    {
-        putchar(i);
-    }
+	putchar('\n');
 
-    putchar('\n');
-
-    return (0);
+	return (0);
 }
-
