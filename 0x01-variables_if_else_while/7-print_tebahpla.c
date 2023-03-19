@@ -6,16 +6,13 @@
  */
 int main(void)
 {
-    int i;
+	int i;
 
-    /* Print the lowercase alphabet in reverse */
-    for (i = 'z'; i >= 'a'; i--)
-    {
-        putchar(i);
-    }
+	for (i = 122; i >= 97; i--)
 
-    putchar('\n');
-
-    return (0);
+	{
+		putchar(i);
+	}
+	putchar('\n');
+	return (0);
 }
-
