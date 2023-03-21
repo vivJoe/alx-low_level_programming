@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 /**
- * main - Entry point 
- * Write a program that prints _putchar, followed by a new line
+ * main - Entry point
+ * write a program that prints _putchar, followed by a new line
  * Return: 0 (Success)
  */
 
