@@ -1,8 +1,7 @@
-#include <stdio.h>
+#include "main.h"
 /**
- * print_alphabet - Prints the lowercase alphabet
- * Description - Write a function that prints the alphabet,
- * in lowercase, followed by a new line.
+ * print_alphabet -  prints 10 times the alphabet, in lowercase,
+ * followed by a new line
  * Return: void
  */
 
@@ -27,8 +26,8 @@ void print_alphabet(void)
 
 	{
 
-		putchar(c);
+		_putchar(c);
 
 	}
-	putchar('\n);
+	_putchar('\n');
 }
